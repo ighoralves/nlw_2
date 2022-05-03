@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Dm sans;
+  font-size: 1.6rem;
+}
+
+:root {
+  --prymary-color: #00856e;
+  --headline: #22262a;
+  --paragraph: #484f56;
+  font-size: 62.5%;
+}
+
+.Header {
+  width: 37.5rem;
+  margin-top: 4.1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Header h4 {
+  color: var(--prymary-color);
+  margin-bottom: 1.6rem;
+  font-size: 1.4rem;
+}
+
+.Header h1 {
+  color: var(--headline);
+  margin-bottom: 2.4rem;
+  font-size: 3.4rem;
+  line-height: 130%;
+}
+
+.Header p {
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.Header button {
+  background-color: var(--prymary-color);
+  height: 6.2rem;
+  width: 26.3rem;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.css.map */
