@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-  --prymary-color: #00856e;
+  --primary-color: #00856e;
   --headline: #22262a;
   --paragraph: #484f56;
   --brand-beige: #fffaf0;
@@ -19,13 +19,14 @@ body {
   font-size: 62.5%;
 }
 
-.Top {
+:root .Wrapper {
   width: 37.5rem;
-  height: var(--nav-height);
-  justify-content: space-between;
-  align-items: center;
   margin-inline: auto;
   padding-inline: 2.4rem;
+}
+
+.Top {
+  height: var(--nav-height);
   display: flex;
   position: fixed;
   top: 0;
@@ -33,14 +34,24 @@ body {
   transform: translateX(-50%);
 }
 
-.Header {
-  width: 37.5rem;
-  margin-inline: auto;
-  margin-top: calc(4.1rem + var(--nav-height) );
-  padding-inline: 2.4rem;
+.Top svg path {
+  fill: #fff;
+  stroke: #fff;
 }
 
-.Header :before {
+.Top .Scroll {
+  width: 100vw;
+  background-color: var(--primary-color);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+Header {
+  margin-top: calc(4.1rem + var(--nav-height) );
+}
+
+Header :before {
   content: "";
   width: 100vw;
   height: calc(108rem + var(--nav-height) );
@@ -52,20 +63,20 @@ body {
   left: 0;
 }
 
-.Header h4 {
-  color: var(--prymary-color);
+Header h4 {
+  color: var(--primary-color);
   margin-bottom: 1.6rem;
   font-size: 1.4rem;
 }
 
-.Header h1 {
+Header h1 {
   color: var(--headline);
   margin-bottom: 2.4rem;
   font-size: 3.4rem;
   line-height: 130%;
 }
 
-.Header p {
+Header p {
   color: var(--paragraph);
   margin-bottom: 3.2rem;
   font-size: 1.8rem;
@@ -73,8 +84,8 @@ body {
   line-height: 150%;
 }
 
-.Header button {
-  background-color: var(--prymary-color);
+Header button {
+  background-color: var(--primary-color);
   height: 6.2rem;
   width: 26.3rem;
   color: #fff;
@@ -92,14 +103,14 @@ body {
   display: flex;
 }
 
-.Header img {
+Header img {
   width: 26.4rem;
   object-position: 0 2rem;
   margin-inline: auto;
   display: block;
 }
 
-.Header .Stats {
+Header .Stats {
   width: 32.7rem;
   background-color: var(--brand-beige);
   border: 1px solid var(--brand-light);
@@ -112,15 +123,15 @@ body {
   display: flex;
 }
 
-.Header .Stats h3 {
+Header .Stats h3 {
   color: var(--headline);
   margin-bottom: .4rem;
   font-size: 4.8rem;
   line-height: 130%;
 }
 
-.Header .Stats p {
-  color: var(--prymary-color);
+Header .Stats p {
+  color: var(--primary-color);
   margin: 0;
   line-height: 150%;
 }

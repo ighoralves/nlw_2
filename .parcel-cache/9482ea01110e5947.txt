@@ -13,7 +13,7 @@
 36C:\Apache24\htdocs\Praticando\assets132959969622911948 1
 74C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\regions\HK.js132959977542000000 0
 59C:\Apache24\htdocs\Praticando\node_modules\term-size\vendor132959977876779984 1
-34C:\Apache24\htdocs\Praticando\dist132961062963910369 1
+34C:\Apache24\htdocs\Praticando\dist132961789271863080 1
 48C:\Apache24\htdocs\Praticando\node_modules\clone132959977654279989 1
 82C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\features\mpeg-dash.js132959977542000000 0
 55C:\Apache24\htdocs\Praticando\node_modules\browserslist132959989246335936 1
@@ -23,7 +23,7 @@
 71C:\Apache24\htdocs\Praticando\node_modules\terser\lib\compress\index.js132959989254174586 0
 87C:\Apache24\htdocs\Praticando\node_modules\dom-serializer\node_modules\entities\LICENSE132959071110360000 0
 80C:\Apache24\htdocs\Praticando\node_modules\@parcel\package-manager\test\fixtures132959977646802310 1
-40C:\Apache24\htdocs\Praticando\index.html132961061168351597 0
+40C:\Apache24\htdocs\Praticando\index.html132961782597880633 0
 50C:\Apache24\htdocs\Praticando\node_modules\is-glob132959977664594174 1
 68C:\Apache24\htdocs\Praticando\node_modules\@parcel\namer-default\src132959977843566052 1
 68C:\Apache24\htdocs\Praticando\node_modules\domutils\lib\stringify.js132959071092080000 0
@@ -244,7 +244,7 @@
 57C:\Apache24\htdocs\Praticando\node_modules\terser\LICENSE132959989238026316 0
 51C:\Apache24\htdocs\Praticando\node_modules\get-port132959977660819593 1
 64C:\Apache24\htdocs\Praticando\node_modules\json5\lib\register.js132959989245766548 0
-63C:\Apache24\htdocs\Praticando\assets\style\components\Topo.scss132961062962004588 0
+63C:\Apache24\htdocs\Praticando\assets\style\components\Topo.scss132961791250734971 0
 50C:\Apache24\htdocs\Praticando\node_modules\globals132959977661297389 1
 61C:\Apache24\htdocs\Praticando\node_modules\readdirp\README.md132959977520190000 0
 74C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\regions\AO.js132959977542000000 0
@@ -3107,7 +3107,7 @@
 94C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\features\css-media-interaction.js132959977542000000 0
 93C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\features\css-media-resolution.js132959977542000000 0
 89C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\features\css-mediaqueries.js132959977542000000 0
-44C:\Apache24\htdocs\Praticando\dist\index.css132961062963870532 0
+44C:\Apache24\htdocs\Praticando\dist\index.css132961789271773321 0
 87C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\features\css-namespaces.js132959977542000000 0
 71C:\Apache24\htdocs\Praticando\node_modules\@parcel\package-manager\test132959977847108441 1
 84C:\Apache24\htdocs\Praticando\node_modules\caniuse-lite\data\features\css-nesting.js132959977542000000 0
@@ -4113,7 +4113,7 @@
 62C:\Apache24\htdocs\Praticando\node_modules\@parcel\logger\test132959977843731158 1
 64C:\Apache24\htdocs\Praticando\node_modules\@parcel\hash\index.js132959070958610000 0
 69C:\Apache24\htdocs\Praticando\node_modules\@parcel\hash\index.js.flow132959070958610000 0
-65C:\Apache24\htdocs\Praticando\assets\style\components\Header.scss132961058507097396 0
+65C:\Apache24\htdocs\Praticando\assets\style\components\Header.scss132961769767906535 0
 68C:\Apache24\htdocs\Praticando\node_modules\@parcel\hash\node_modules132959977983669591 1
 83C:\Apache24\htdocs\Praticando\node_modules\@parcel\hash\parcel-hash.darwin-x64.node132959070958610000 0
 92C:\Apache24\htdocs\Praticando\node_modules\@parcel\hash\parcel-hash.linux-arm-gnueabihf.node132959070958610000 0
@@ -4383,9 +4383,9 @@
 56C:\Apache24\htdocs\Praticando\node_modules\.bin\sass.cmd132959989270600996 0
 56C:\Apache24\htdocs\Praticando\node_modules\.bin\svgo.ps1132959989270541157 0
 58C:\Apache24\htdocs\Praticando\node_modules\.bin\terser.cmd132959989270591092 0
-48C:\Apache24\htdocs\Praticando\dist\index.css.map132961062963870532 0
+48C:\Apache24\htdocs\Praticando\dist\index.css.map132961789271773321 0
 42C:\Apache24\htdocs\Praticando\assets\image132960139875339574 1
 42C:\Apache24\htdocs\Praticando\assets\style132959980576680838 1
 53C:\Apache24\htdocs\Praticando\assets\style\index.scss132961044199565736 0
-68C:\Apache24\htdocs\Praticando\assets\style\components\Variaveis.scss132961057398366692 0
+68C:\Apache24\htdocs\Praticando\assets\style\components\Variaveis.scss132961769742047899 0
 51C:\Apache24\htdocs\Praticando\assets\image\Foto.png132960139591891652 0
