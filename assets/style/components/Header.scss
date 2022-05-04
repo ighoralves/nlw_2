@@ -1,8 +1,22 @@
 .Header {
   width: 37.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 4.1rem;
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+  margin-top: calc(4.1rem + var(--nav-height));
+
+  ::before {
+    content: "";
+    width: 100vw;
+    height: calc(108rem + var(--nav-height));
+    background-color: var(--brand-light);
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
  h4 {
   font-size: 1.4rem;
   color: var(--prymary-color);
@@ -44,6 +58,44 @@
 
    margin-right: auto;
    margin-left: auto;  
+ }
+
+ img {
+   width: 26.4rem;
+   display: block;
+   margin-inline: auto;
+   object-position: 0 2rem;
+ }
+
+ .Stats {
+  width: 32.7rem; 
+  padding-block: 4rem;
+  margin-inline: auto;
+
+  background-color: var(--brand-beige);
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+
+  
+
+  h3 {
+    font-size: 4.8rem;
+    color: var(--headline);
+    line-height: 130%;
+
+    margin-bottom: 0.4rem;
+  } 
+
+  p {
+    margin: 0;
+    color: var(--prymary-color); 
+    line-height: 150%;
+  }
 
  }
 

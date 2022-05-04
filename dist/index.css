@@ -13,14 +13,43 @@ body {
   --prymary-color: #00856e;
   --headline: #22262a;
   --paragraph: #484f56;
+  --brand-beige: #fffaf0;
+  --brand-light: #dce9e3;
+  --nav-height: 7.2rem;
   font-size: 62.5%;
+}
+
+.Top {
+  width: 37.5rem;
+  height: var(--nav-height);
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .Header {
   width: 37.5rem;
-  margin-top: 4.1rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
+  margin-top: calc(4.1rem + var(--nav-height) );
+  padding-inline: 2.4rem;
+}
+
+.Header :before {
+  content: "";
+  width: 100vw;
+  height: calc(108rem + var(--nav-height) );
+  background-color: var(--brand-light);
+  z-index: -1;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .Header h4 {
@@ -61,6 +90,39 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   display: flex;
+}
+
+.Header img {
+  width: 26.4rem;
+  object-position: 0 2rem;
+  margin-inline: auto;
+  display: block;
+}
+
+.Header .Stats {
+  width: 32.7rem;
+  background-color: var(--brand-beige);
+  border: 1px solid var(--brand-light);
+  border-radius: .6rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+  margin-inline: auto;
+  padding-block: 4rem;
+  display: flex;
+}
+
+.Header .Stats h3 {
+  color: var(--headline);
+  margin-bottom: .4rem;
+  font-size: 4.8rem;
+  line-height: 130%;
+}
+
+.Header .Stats p {
+  color: var(--prymary-color);
+  margin: 0;
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=index.css.map */
